@@ -21,11 +21,12 @@
     },
     "scripts": {
         "start": "react-scripts start",
-        "build": "react-scripts build",
+        "build": "CI= react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "amplify-modelgen": "node amplify/scripts/amplify-modelgen.js",
         "amplify-push": "node amplify/scripts/amplify-push.js"
+        
     },
     "eslintConfig": {
         "extends": [

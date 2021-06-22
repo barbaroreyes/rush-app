@@ -41,10 +41,12 @@ function App() {
 
     return (
       <div style={container}>
+        
         <h1 style={heading}></h1>
         <input type='file'
         onChange={onChange}
         />
+        
         <Input
           onChange={onChange}
           name='title'
